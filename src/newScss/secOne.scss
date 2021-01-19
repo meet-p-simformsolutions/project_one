@@ -1,0 +1,50 @@
+.secOne{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .teat-wrap{
+        font-family: "Staatliches";
+        letter-spacing: 2px;
+        width: 50%;
+        font-size: 120px;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: end;
+        .line{
+            overflow: hidden;
+        }
+        .text-up{
+            .line-one{
+
+            }
+            .line-two{
+                
+            }
+        }
+        .text-down{
+            text-align: left;
+            margin-left: 2.5vw;
+        }
+
+    }
+    .img{
+        margin-top: 2.5vh;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        width: 30vw;
+        height: 90vh;
+        overflow: hidden;
+        img{
+            width: 40vw;
+        }
+    }
+    
+}
+.overlay{
+    background-color: #cccccc;
+}

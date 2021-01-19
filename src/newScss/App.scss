@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@600&family=Poppins:wght@200&display=swap');
+@import './secOne.scss';
+@import './secTwo.scss';
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.logo p{
+    position: fixed;
+    top: 2.5%;
+    left: 2.5%;
+    font-size: 12px;
+    z-index: 11;
+}
+
+.slideAll{
+    background-color: none;
+}
+
+body{
+    margin:0;
+    padding :0;
+    overflow: hidden;
+}
+
+.b{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    width: 100vw;
+    height: 100vh;
+}

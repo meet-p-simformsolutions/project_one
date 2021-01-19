@@ -1,0 +1,47 @@
+.mainsec{
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .text{
+        position: relative;
+        font-family: "Montserrat";
+        font-size: 90px;
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .lineOne{
+        margin-top: 2.5%;
+        .line-wrapper{
+            margin-bottom: 40px;
+        }
+        .word{
+            text-align: right;
+        }
+    }
+
+    .linetwo{
+        bottom: 2.5%;
+        left: 0;
+    }
+
+    .imgSec{
+        position: relative;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        height: 80vh;
+        width: 40vw;
+        overflow: hidden;
+        img{
+            position: relative;
+            height: 100%;    
+        }
+
+    }
+
+
+}
